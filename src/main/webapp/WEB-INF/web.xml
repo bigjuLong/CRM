@@ -53,4 +53,12 @@
     <!--强制所有的请求先通过过滤器处理-->
     <url-pattern>/*</url-pattern>
   </filter-mapping>
+  <filter>
+    <filter-name>LoginFilter</filter-name>
+    <filter-class>com.iflytek.filter.LoginFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>LoginFilter</filter-name>
+    <url-pattern>*.jsp</url-pattern>
+  </filter-mapping>
 </web-app>

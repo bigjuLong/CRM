@@ -9,11 +9,13 @@
     <!--设置别名-->
     <typeAliases>
         <package name="com.iflytek.settings.domain"/>
+        <package name="com.iflytek.workbench.domain"/>
     </typeAliases>
 
 
     <!--sql mapper(sql映射文件的位置)-->
     <mappers>
         <package name="com.iflytek.settings.dao"/>
+        <package name="com.iflytek.workbench.dao"/>
     </mappers>
 </configuration>
